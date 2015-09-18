@@ -1,0 +1,12 @@
+body{background-color: #031634; margin:0; padding: 0}
+section{background-color: #033649; width: 45em; padding: 10px; text-align: justify; margin: 0 auto;}
+/* hr{height: 66.6px; border-color: #036564;  background-color: #036564}  */
+h1,h2,h3{color:#cdb380}
+p{color:#e8ddcb}
+
+nav{position: relative; z-index: 1; background-color: #036564; color: #cdb380;height:2em; width:100%; padding:0; margin:4px 0 15px 0; letter-spacing:1px}
+nav a {color: #e8ddcb; text-decoration:none;font-size: 17pt; font-family:"roboto",Arial,sans-serif;}
+nav a#projects{ margin-right: 15%}
+nav a#interest{margin-right:15%}
+nav a#requests{}
+
