@@ -1,12 +1,27 @@
-body{background-color: #031634; margin:0; padding: 0}
-section{background-color: #033649; width: 45em; padding: 10px; text-align: justify; margin: 0 auto;}
+body{background-color: #031634; margin:0; padding:0; color: #cdb380}
 /* hr{height: 66.6px; border-color: #036564;  background-color: #036564}  */
-h1,h2,h3{color:#cdb380}
-p{color:#e8ddcb}
 
-nav{position: relative; z-index: 1; background-color: #036564; color: #cdb380;height:2em; width:100%; padding:0; margin:4px 0 15px 0; letter-spacing:1px}
-nav a {color: #e8ddcb; text-decoration:none;font-size: 17pt; font-family:"roboto",Arial,sans-serif;}
-nav a#projects{ margin-right: 15%}
+
+/*header*/
+header{margin-bottom: 5px; font-size:24pt;margin:0 .25in}
+#mainImage{height:2.5in;float:right; margin-top:3% }
+h1{display:inline;vertical-align: -2.75in;}
+
+
+/*navigation*/
+nav{clear:right;background-color: #036564; width:100%; padding: 8px 8px 8px .75in;margin:5px 0 15px 0; letter-spacing:5px; word-spacing: 20pt; }
+nav a {color: #e8ddcb; text-decoration:none;font-size: 17pt; font-family:"roboto",Arial,sans-serif;vertical-align: -10px}
+/* nav a#projects{ margin-right: 15%}
 nav a#interest{margin-right:15%}
-nav a#requests{}
+nav a#requests{} */
 
+/* section */
+section{background-color: #033649; width: 55%; padding: 10px; text-align: justify; margin: 0 auto;font-size: 14pt}
+
+.entry{border: dashed 2px #0097FF; margin: 20px 0; padding: 10px}
+.entry h3{text-decoration:underline; margin-left:15px}
+p{margin-top:2px}
+.small{font-size: 12pt}
+h2,h3{margin-top: 5px}
+a{color: #01b0ae}
+a:hover{color: #FFFFFF}
