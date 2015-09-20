@@ -1,27 +1,32 @@
-body{background-color: #031634; margin:0; padding:0; color: #cdb380}
-/* hr{height: 66.6px; border-color: #036564;  background-color: #036564}  */
-
-
-/*header*/
-header{margin-bottom: 5px; font-size:24pt;margin:0 .25in}
-#mainImage{height:2.5in;float:right; margin-top:3% }
-h1{display:inline;vertical-align: -2.75in;}
-
-
-/*navigation*/
-nav{clear:right;background-color: #036564; width:100%; padding: 8px 8px 8px .75in;margin:5px 0 15px 0; letter-spacing:5px; word-spacing: 20pt; }
-nav a {color: #e8ddcb; text-decoration:none;font-size: 17pt; font-family:"roboto",Arial,sans-serif;vertical-align: -10px}
-/* nav a#projects{ margin-right: 15%}
-nav a#interest{margin-right:15%}
-nav a#requests{} */
-
-/* section */
-section{background-color: #033649; width: 55%; padding: 10px; text-align: justify; margin: 0 auto;font-size: 14pt}
-
-.entry{border: dashed 2px #0097FF; margin: 20px 0; padding: 10px}
-.entry h3{text-decoration:underline; margin-left:15px}
-p{margin-top:2px}
-.small{font-size: 12pt}
-h2,h3{margin-top: 5px}
 a{color: #01b0ae}
 a:hover{color: #FFFFFF}
+body{background-color: #031634; color: #cdb380; margin:0; padding:0; }
+
+/*header*/
+header{ font-size: 24pt; margin-bottom: 5px; margin: 0 .25in}
+h1{display: inline; vertical-align: -2.75in;}
+
+#mainImage{height: 2.5in; float:right; margin-top:3% }
+
+/*navigation*/
+nav{
+		background-color: #036564; clear:right; width:100%; 
+		padding: 8px 8px 8px .75in;margin:5px 0 15px 0; letter-spacing:5px; 
+		word-spacing: 20pt; box-shadow: 10px 10px 5px black 
+	}
+nav a {color: #e8ddcb; text-decoration:none;font-size: 17pt; font-family:"roboto",Arial,sans-serif;vertical-align: -10px}
+
+/* section */
+section{background-color: #033649; font-size: 14pt; margin: 0 auto; padding: 10px; text-align: justify; width: 55%;}
+.entry{border: dashed 2px #0097FF; margin: 20px 0; padding: 10px;}
+.entry h3 a {text-decoration:underline; margin-left:15px}
+.entry ul{padding-left: 25px; margin: 0}
+p{margin-top:2px; margin-bottom: 5px}
+.small{font-size: 12pt}
+h2,h3{margin-top: 5px}
+
+
+
+
+/* footer */
+footer a {position:fixed;bottom: 10px; right: 5px }
