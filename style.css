@@ -1,16 +1,43 @@
-body{background-color: #031634; margin:0; padding: 0}
-section{background-color: #033649; width: 45em; padding: 10px; text-align: justify; margin: 0 auto;}
-/* hr{height: 66.6px; border-color: #036564;  background-color: #036564}  */
-h1,h2,h3{color:#cdb380}
-header{margin: 30px}
-h1{display:inline}
-header img{ margin: 0; border: solid 2pt white; border-radius: 50}
-p{color:#e8ddcb}
+a{color: #01b0ae}
+a:hover{color: #FFFFFF}
+body{background-color: #031634; color: #cdb380; margin:0; padding:0; }
 
-nav{position: relative; z-index: 1; background-color: #036564; color: #cdb380;height:2em; width:100%; padding:0; margin:4px 0 15px 0; letter-spacing:1px}
-nav a {color: #e8ddcb; text-decoration:none;font-size: 17pt; font-family: roboto,"San Francisco",sans-serif}
-nav a#projects{ margin: 0 50px}
-nav a#interest{margin-right: 50px}
-nav a#requests{}
+/*header*/
+header{ font-size: 24pt; margin-bottom: 5px; margin: 0 .25in}
+h1{display: inline; vertical-align: -2.75in;}
 
-#mainImage{height: 85px;}
+#mainImage{height: 2.5in; float:right; margin-top:3% }
+
+/*navigation*/
+nav{
+		background-color: #036564; clear:right; width:100%; 
+		padding: 8px 8px 8px .75in;margin:5px 0 15px 0; letter-spacing:5px; 
+		word-spacing: 20pt; box-shadow: 10px 10px 5px black 
+	}
+nav a {color: #e8ddcb; text-decoration:none;font-size: 17pt; font-family:"roboto",Arial,sans-serif;vertical-align: -10px}
+nav img {height: 30px; margin-left: -50px}
+
+/* section */
+section{background-color: #033649; font-size: 14pt; margin: 0 auto; padding: 10px; text-align: justify; width: 55%;}
+.entry{border: dashed 2px #0097FF; margin: 20px 0; padding: 10px;}
+.entry h3 a {text-decoration:underline; margin-left:15px}
+.entry ul{padding-left: 25px; margin: 0}
+p{margin-top:2px; margin-bottom: 5px}
+.small{font-size: 12pt}
+h2,h3{margin-top: 5px}
+p {text-indent: 25px;}
+
+
+
+
+/* footer */
+footer{position:fixed;width: 10em; bottom: 5px; right: 2px; word-spacing: 5px  }
+footer img {width:40px}
+
+
+.travelPhotos {float:left; width: 20%; margin-top: 110px; margin-left: 7px}
+.travelPhotos img{width: 100%; margin: 10px }
+.cyclingPhoto {float:right; width: 20%; margin-top: 65%; margin-right: 7px}
+.cyclingPhoto img{width:100%}
+.cosplayPhoto{float: left; width: 20%; margin-top: 50%; margin-left: 7px; clear: left}
+.cosplayPhoto img {width: 100%}

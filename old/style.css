@@ -1,0 +1,21 @@
+a:link{text-decoration: none;color: #770099}
+a:hover{color:#00ffff; text-decoration:underline}
+
+h1{display: inline; font-family:sans-serif; vertical-align: -150px; font-size: 44pt; margin:0}
+h2{font-size:24pt; font-variant: small-caps}
+div.projects a{color: Blue }
+div.projects h3{background-color:#0000AA;color: #FFF; margin: auto -8pt; padding-left: 5px;}
+div.projects p {margin: 2px 4px; padding: 3px}
+div.projects p,h3{border: 3px solid black;}
+hr{height: 4.5px; background-color: purple; margin: -4px;border-radius:5px;clear: right}
+p{font-size:18px}
+strong{font-weight: 900; text-decoration: underline}
+.center{text-align: center;}
+.delete{width: 200px; display:block; margin-left: auto;  margin-right: auto}
+.main{height:auto; width:200px; float: right; border: 3px solid }
+#projects{background-color:#00f;}
+
+
+
+	
+
